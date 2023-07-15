@@ -32,7 +32,12 @@ dragDrop.addEventListener("drop", (e) => {
 
 const upload = document.querySelector('.file .btn');
 upload.addEventListener('click',()=>{
-    images.innerHTML='';
+    if(images.innerHTML===''){
+      alert('Please browse a file')
+    }else{
+      images.innerHTML='';
+    }
+    
 })
 
 function displayFile(){
