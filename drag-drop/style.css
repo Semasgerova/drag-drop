@@ -1,0 +1,95 @@
+.file{
+    margin: 20vh auto 0 auto;
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.drag-drop{
+    width: 90%;
+    margin-top: 40px;
+    border: 3px dashed rgba(0, 0, 0, 0.247);
+    padding: 60px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.drag-drop .icon i{
+    font-size: 50px;
+    color: rgb(39, 83, 214);
+}
+
+.drag-drop span{
+    color: rgb(39, 83, 214);
+}
+
+.drag-drop p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.file .btn{
+    background-color: rgb(39, 83, 214);
+    color: white;
+    padding: 10px 70px;
+    border-radius: 30px;
+    border: 1px solid rgb(39, 83, 214);
+}
+
+.file .btn:hover{
+    border: 1px solid rgb(39, 83, 214);
+}
+
+.active{
+    border: 3px solid rgb(39, 83, 214);
+}
+
+.images .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.images .box .img{
+    width: 80%;
+    display: flex;
+}
+
+.images .box .img img{
+    width: 15%;
+    margin-right: 20px;
+}
+
+.images .box .img .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.images .box .img .text h4{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.images .box i{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.images .box p{
+    display: flex;
+    align-items: center;
+}
+
+.images .box p span{
+    padding: 2px;
+    margin: 4px;
+    background-color: black;
+    border-radius: 50%;
+}
